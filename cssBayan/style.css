@@ -15,6 +15,9 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+
+    background-color: rgb(233, 229, 222);
+    color: #8e4d57;
 }
 
 .header, .main {
@@ -30,8 +33,26 @@ body {
     width: 100%;
 }
 
+.meme {
+    border-top: 1px solid rgba(218, 165, 32, 0.4);
+}
+
+h3 {
+    margin: 0;
+}
+
+.meme-input {
+    appearance: none;
+    margin: 0;
+    display: inline;
+}
+
 .meme-pic {
-    display: block;
+    display: none;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto 5px;
+}
+
+.meme-input:checked + .title .meme-pic {
+    display: block;
 }
