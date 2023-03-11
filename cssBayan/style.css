@@ -115,7 +115,9 @@ body {
     .meme-name {
         font-size: 1.35rem;
     }
+}
 
+@media (hover: hover) {
     .title:hover .meme-pic {
         width: 70%;
         opacity: 1;
