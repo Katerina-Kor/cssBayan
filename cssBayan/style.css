@@ -139,3 +139,15 @@ body {
         opacity: 1;
     }
 }
+
+.title:active .icon {
+    filter: invert(34%) sepia(11%) saturate(2136%) hue-rotate(301deg) brightness(95%) contrast(82%);
+}
+
+.title:active .meme-name {
+    color: rgb(142, 77, 87);
+}
+
+.title:active {
+    opacity: 0.7;
+}
