@@ -32,6 +32,10 @@ body {
     min-height: 2rem;
 }
 
+.main-title {
+    font-size: 1.5rem;
+}
+
 .accordion, .meme, .title {
     width: 100%;
 }
@@ -54,6 +58,7 @@ body {
 
 .meme-name {
     margin: 0;
+    font-size: 1rem;
     transition: color 1s;
 }
 
@@ -90,4 +95,14 @@ body {
 
 .meme-input:checked + .title .meme-name {
     color: black;
+}
+
+@media screen and (min-width: 600px) {
+    .main-title {
+        font-size: 1.75rem;
+    }
+
+    .meme-name {
+        font-size: 1.25rem;
+    }
 }
