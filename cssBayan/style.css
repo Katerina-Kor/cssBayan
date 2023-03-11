@@ -59,7 +59,7 @@ body {
 .meme-name {
     margin: 0;
     font-size: 1rem;
-    transition: color 1s;
+    transition: color .7s;
 }
 
 .icon {
@@ -104,5 +104,38 @@ body {
 
     .meme-name {
         font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .meme-name {
+        font-size: 1.35rem;
+    }
+
+    .title:hover .meme-pic {
+        width: 70%;
+        opacity: 1;
+        margin: 0.5rem auto;
+    }
+
+    .title:hover .icon {
+        transform: rotate(180deg);
+    }
+
+    .accordion:hover .meme-name {
+        color: black;
+    }
+
+    .icon {
+        opacity: 0;
+        transition: opacity .4s;
+    }
+
+    .accordion:hover .icon {
+        opacity: 1;
     }
 }
