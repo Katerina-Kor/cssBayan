@@ -17,8 +17,8 @@ body {
     margin: 0;
     padding: 0;
 
-    background-color: rgb(233, 229, 222);
-    color: #8e4d57;
+    background-color: #e9e5de;
+    color: darkgreen;
     font-family: serif;
     font-size: 1rem;
 }
@@ -41,7 +41,7 @@ body {
 }
 
 .meme {
-    border-top: 0.1rem solid rgba(218, 165, 32, 0.4);
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.6);
 }
 
 .meme-input {
@@ -141,11 +141,11 @@ body {
 }
 
 .title:active .icon {
-    filter: invert(34%) sepia(11%) saturate(2136%) hue-rotate(301deg) brightness(95%) contrast(82%);
+    filter: invert(20%) sepia(80%) saturate(6714%) hue-rotate(89deg) brightness(92%) contrast(112%);
 }
 
 .title:active .meme-name {
-    color: rgb(142, 77, 87);
+    color: darkgreen;
 }
 
 .title:active {
